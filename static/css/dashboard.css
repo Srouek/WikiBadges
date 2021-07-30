@@ -1,0 +1,207 @@
+.growthexperiments-homepage-module {
+    border: #c8ccd1 1px solid;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #202122;
+    padding: 16px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 8px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+h3{
+    font-family: 'Linux Libertine';
+    font-weight: 100;
+}
+//Profile and Badge
+.profile-dash{
+    width:23%; // ne fonctionne pas !!
+}
+.profil-info *{
+    font-family: 'Linux Libertine';
+}
+.profil-info h4{
+    font-size: 93%;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 20px 0;
+}
+figure{
+    margin: 5px 0px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.getted-badge, .progress-badge {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 15px 0;
+}
+figcaption{
+    font-size: 80%;
+}
+.badge {
+    width: 40px;
+    height: auto;
+}
+
+.sans-serif{
+    font-size: 80%;
+    font-family: sans-serif;
+}
+.profil-info ul li{
+    margin-bottom: 10px;
+}
+.profil-info ul li a{
+    text-decoration: none;
+    color: #0645ad;
+    background: none;
+}
+.date-modif a::hover{
+    text-decoration: underline;
+}
+
+// CHarts 
+.data-charts{
+    width: 77%;
+    background-color: rgb(233, 236, 240);
+    padding: 2em;
+    margin: 
+    border-radius: 2px;
+}
+.blue-hr{
+    height: 3px;
+    width: 75%;
+    background-color: rgb(189, 216, 251);
+    margin-bottom: 3em;
+}
+.container-charts{
+    display : flex;
+    flex-direction: column;
+    
+}
+.charts-row{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    margin: 10px 0px;
+    padding: 2px;
+}
+
+.first-chart{
+    margin: 5px;
+    display:flex;
+
+}
+
+.first-chart *, .second-chart * {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.first-chart{
+
+}
+.second-chart *{
+    padding: 5px;
+}
+
+.chart-column{
+    padding: 5px;
+    align-items: center;
+}
+.nb-chart{
+    font-size: 30px;
+    font-weight: 500;
+}
+.nb-first-chart{
+    font-weight: bold;
+}
+
+.small-chart{
+    margin: 5px;
+    display:flex;
+    align-items: center;
+}
+.small-chart *{
+    margin: 5px;
+    padding: 5px;
+    width: 60%
+}
+.large-chart-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+.large-chart-column{
+    
+}
+
+// Tableau Badge
+// Tableau Badge
+.container:nth-child(2) div{
+    width: 100%;
+    background-color: rgb(233, 236, 240)
+}
+.row-badge {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+
+.desactivated{
+    opacity: 0.2;
+}
+.desactivated:hover{
+    opacity: 1;
+}
+.badge-table{
+    width: 90px;
+    height: auto;
+}
+
+.progressbar {
+    color: #0E48AA;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 75%;
+}
+.progressbar h4 {
+    color: #0E48AA;
+}
+.bold{
+    font-weight: bold;
+}
+.font-table{
+    font-size:100%;
+}
+
+.horizontalbar{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    border-radius: 10;
+    
+}
+.backgroudgrey{
+    width:100%;
+    background-color: rgb(196, 196, 196);
+}
+.col-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+}
+.data-col{
+    width:20px;
+    
+}
+
